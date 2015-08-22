@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="90dp"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/re_item_image"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:src="@drawable/icon_diy" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/remotename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" >
+    </TextView>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/tv_power"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/tv_up"
+            android:background="@drawable/ic_rm_ac_power" />
+
+        <ImageButton
+            android:id="@+id/tv_mute"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/tv_up"
+            android:background="@drawable/ic_tv_white_mute" />
+
+        <ImageButton
+            android:id="@+id/tv_up"
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="42dp"
+            android:background="@drawable/ic_btn_sound_up" />
+
+        <ImageButton
+            android:id="@+id/tv_menu"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/tv_up"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/ic_btn_menu" />
+
+        <ImageButton
+            android:id="@+id/tv_down"
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:layout_below="@+id/tv_menu"
+            android:layout_marginTop="18dp"
+            android:layout_toRightOf="@+id/tv_mute"
+            android:background="@drawable/ic_btn_sound_down" />
+
+        <ImageButton
+            android:id="@+id/tv_left"
+            android:layout_width="55dp"
+            android:layout_height="140dp"
+            android:layout_below="@+id/tv_power"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="20dp"
+            android:layout_toLeftOf="@+id/tv_menu"
+            android:background="@drawable/ic_btn_sound_left" />
+
+        <ImageButton
+            android:id="@+id/tv_right"
+            android:layout_width="55dp"
+            android:layout_height="140dp"
+            android:layout_alignTop="@+id/tv_left"
+            android:layout_marginLeft="19dp"
+            android:layout_toRightOf="@+id/tv_menu"
+            android:background="@drawable/ic_btn_sound_right" />
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/tv_gridview"
+        android:layout_width="280dp"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:numColumns="3"
+        android:scrollbars="none" >
+    </GridView>
+
+</LinearLayout>

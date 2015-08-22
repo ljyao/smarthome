@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#0000FF</color>
+    <color name="gray">#808080</color>
+    <color name="green">#008000</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="transparent">#00000000</color>
+    <color name="divider">#BEBEBE</color>
+    <color name="white_gray">#DCDCDC</color>
+    <color name="dodger_blue">#1E90FF</color>
+    <color name="deep_sky_blue">#00BFFF</color>
+    <color name="red_deep">#CE0000</color>
+    <color name="golden_yellow">#F0A962</color>
+    <color name="translucent">#7f000000</color>
+    <color name="translucent_white">#7fFFFFFF</color>
+    <color name="tab_uderline_blue">#FF3F9FE0</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="back_week_selected">#4F3DEE11</color>
+    <!-- Score & Exam Card bg -->
+    <color name="pale_violet_red">#DB7093</color>
+    <color name="slate_blue">#6A5ACD</color>
+    <color name="slate_gray">#708090</color>
+    <color name="dark_cyan">#008B8B</color>
+    <color name="dark_sea_green">#8FBC8F</color>
+    <color name="dark_khaki">#BDB76B</color>
+    <color name="dark_goldenrod">#B8860B</color>
+    <color name="tan">#D2B48C</color>
+    <color name="dark_orange">#FF8C00</color>
+    <color name="dark_gray">#A9A9A9</color>
+  
+    <!-- 主题颜色 -->
+    <color name="image_checked_bg">#66000000</color>
+    <!-- 菜单栏 按钮文字颜色 -->
+    <color name="topbar_btn_text_color">#ffffff</color>
+    <!-- 返回按钮 字体颜色 -->
+    <color name="back_color_noclick">#ffff</color>
+    <color name="back_color_click">#8fff</color>
+
+</resources>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_below="@+id/sf_VideoMonitor"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:gravity="center" >
+
+    <Button
+        android:id="@+id/btn_Auto"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/btn_auto"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_UpLeft"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/btn_FocusFar"
+        android:background="@drawable/btn_upleft"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_Up"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_up" />
+
+    <Button
+        android:id="@+id/btn_UpRight"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/btn_ZoomIn"
+        android:background="@drawable/btn_upright"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_DownLeft"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btn_FocusNear"
+        android:background="@drawable/btn_downleft"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_Down"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_down" />
+
+    <Button
+        android:id="@+id/btn_DownRight"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/btn_ZoomOut"
+        android:background="@drawable/btn_downright"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_Left"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/btn_left" />
+
+    <Button
+        android:id="@+id/btn_Right"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/btn_right" />
+
+    <Button
+        android:id="@+id/btn_ZoomIn"
+        android:layout_width="73dp"
+        android:layout_height="75dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/btn_zoomin"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_ZoomOut"
+        android:layout_width="73dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn_zoomout"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_FocusNear"
+        android:layout_width="73dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/btn_focusnear"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_FocusFar"
+        android:layout_width="73dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/btn_focusfar"
+        android:visibility="invisible" />
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group>
+        <item
+            android:id="@+id/device_list"
+            android:checkable="true"
+            android:title="设备列表"/>
+        <item
+            android:id="@+id/menu_device_add_infrared"
+            android:title="配置红外设备"/>
+        <item
+            android:id="@+id/menu_device_add_camera"
+            android:title="添加摄像头"/>
+    </group>
+
+</menu>

@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/icon_rm" />
+
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="红外设备" />
+
+        <EditText
+            android:id="@+id/et_wifi_ssid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/et_wifi_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="无线网密码" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_smartConfig_v2"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:text="配置"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

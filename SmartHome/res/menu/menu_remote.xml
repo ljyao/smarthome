@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:actionbar="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <item
+        android:id="@+id/action_settings"
+        actionbar:showAsAction="always"
+        android:icon="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"
+        android:title="@string/action_settings">
+        <menu>
+            <item
+                android:id="@+id/menu_device_list"
+                android:title="设备列表"/>
+            <item
+                android:id="@+id/menu_device_add_infrared"
+                android:title="配置红外设备"/>
+            <item
+                android:id="@+id/menu_device_add_camera"
+                android:title="添加摄像头"/>
+            <item
+                android:id="@+id/menu_control_add"
+                android:title="添加遥控器"/>
+        </menu>
+    </item>
+
+</menu>

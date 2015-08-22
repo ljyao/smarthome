@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/add_camera"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/et_camera_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="设备名称" />
+
+        <EditText
+            android:id="@+id/et_camera_username"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="用户名" />
+
+        <EditText
+            android:id="@+id/et_camera_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="密码" />
+
+        <EditText
+            android:id="@+id/et_camera_ipaddr"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="设备ip地址：端口号" />
+    </LinearLayout>
+
+</LinearLayout>
